@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:
+        "Helvetica Neue",
+        helvetica,
+        arial,
+        "Hiragino Kaku Gothic Pro",
+        "MS Gothic",
+        sans-serif;
+}
+
+.header {
+    background-color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(121, 176, 211);
+    color: white;
+    padding: 80px 10px 15px 10px;
+    gap: 30px;
+}
+
+.titulo-1 {
+    font-size: 34px;
+}
+
+.tittulo-2 {}
