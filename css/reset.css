@@ -91,6 +91,7 @@ video {
         "Hiragino Kaku Gothic Pro",
         "MS Gothic",
         sans-serif;
+        font-size: 62.5%;
 }
 
 /* HTML5 display-role reset for older browsers */
