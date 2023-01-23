@@ -6,6 +6,7 @@
         "Hiragino Kaku Gothic Pro",
         "MS Gothic",
         sans-serif;
+        font-size: 62.5%;
 }
 
 @media (max-width:720px) {
