@@ -9,22 +9,13 @@
         font-size: 62.5%;
 }
 
-@media (max-width:720px) {
-    .nav_2 {
-        display: none;
-    }
+.body {
+    width: 100%;
 }
-
-@media (min-width:720px) {
-    .menu-img {
-        display: none;
-    } 
-}
-
 
 .header {
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -35,26 +26,28 @@
     z-index: 1;
 }
 .logo_img {
-    height: 25px;
+    height: 100%;
 }
 
-.menu-img {
-    height: 25px;
+.menu_img {
+    height: 100%;
 }
 
-.nav_list {
+
+/* .nav_list {
     color: white;
     display: flex;
     justify-content: space-between;
-}
+}   */
 
-.container-1 {
+.container_1 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: rgb(13, 114, 234);
     color: white;
     padding: 100px 15px 30px 15px;
-    gap: 30px;
+    gap: 30px; /*no entiendo esto */
 }
 
 .titulo-1 {
@@ -65,21 +58,17 @@
     font-size: 18px;
 }
 
-.button_plans {
-    align-self: center;
-    padding: 13px;
-    border-radius: 50px;
-    background-color: rgb(52, 216, 76);
-    width: 330px;
-    height: auto;
-}
-
-.link_plans {
+.button {
     text-decoration: none;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
+    padding: 13px;
+    border-radius: 50px;
+    background-color: rgb(52, 216, 76);
+    width: 90%;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -93,7 +82,7 @@
 }
 
 .title-section-2 {
-    font-size: 18px;
+    font-size: 28px;
     padding: 30px;
     text-align: center;
 }
@@ -104,23 +93,32 @@
     justify-content: space-between;
     color: black;
     background-color: white;
-    padding: 15px;
+    
 
 }
 
 .article {
     display: flex;
-    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+    
 }
 
 .article_img {
-    min-width: 10%;
-    max-width: 30%;
-    padding: 10px;
+    height: 100%;
+    margin-right: 20px;
 }
 
 .article_text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
+    font-size: 21px; 
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
