@@ -10,12 +10,19 @@
         gap: 15px; /* no entiendo */
         padding-right: 13px;
     }
+
+    .container_article {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .article {
+        width: 50%;
+    }
 }
 
 @media (max-width:720px) {
     .nav_container {
         display: none;
-    }
-
-    
+    }  
 }
