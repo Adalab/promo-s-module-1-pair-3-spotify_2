@@ -1,0 +1,16 @@
+
+.title--form {
+    font-size: 3rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: 2rem;
+    max-width: 300px;
+    gap:30px;
+    
+}
+.input--label {
+    display:block;
+}
